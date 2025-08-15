@@ -11,10 +11,11 @@ patron = "small"
 print("Buscando: ", patron)
 print("Dentro de: ", cadena)
 
-print( patron[0] == cadena[0] ) # <--- ejemplo de comparacion entre caracteres
+#print( patron[0] == cadena[0] ) # <--- ejemplo de comparacion entre caracteres
 
 def buscar_patron(cadena, patron):
-    indices = []
+    indice = []
+    indicefinal = []
     for i in range(len(cadena) - len(patron) + 1):
         encontrado = True
         for j in range(len(patron)):
@@ -22,7 +23,12 @@ def buscar_patron(cadena, patron):
                 encontrado = False
                 break
         if encontrado:
-            indices.append(i)
-    return indices
+            indice.append(i)
+            indicefinal.append(i + len(patron))
+    return indice, indicefinal
+
 
 print(buscar_patron(cadena, patron))
+
+indice, indicefinal = buscar_patron(cadena, patron)
+print(cadena[indice[0]:indicefinal[0]])
