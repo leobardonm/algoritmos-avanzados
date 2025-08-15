@@ -28,7 +28,7 @@ def buscar_patron(cadena, patron):
     return indice, indicefinal
 
 
-print(buscar_patron(cadena, patron))
 
 indice, indicefinal = buscar_patron(cadena, patron)
+print(indice, indicefinal)
 print(cadena[indice[0]:indicefinal[0]])
