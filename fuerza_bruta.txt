@@ -1,0 +1,67 @@
+
+Instrucciones
+
+Utiliza la técnica de programación de fuerza bruta para resolver al menos uno de los siguientes desafíos en C/C++. 
+Recuerda no programar con Copilot / ni otras IA's habilitadas. 
+
+Crea un Replit con tu solución (o plataforma similar para ejecutar tu código online y compartirlo con permisos de edición), y revisa las indicaciones de entrega.  
+
+ 
+
+1. Determina cuales son los dos puntos mas cercanos dadas las siguientes coordenadas x, y.
+
+-2.423,  -8.469
+5.721,     9.354
+6.766,    -3.823
+4.129,     6.744
+5.371,    -5.404
+
+
+
+          Imprime como salida: las coordenadas x, y de los puntos mas cercanos y la distancia entre ellos. 
+
+sqrt ( (y2-y1)^2 + (x2-x1)^2 )
+
+2. Determina cuales son los indices de inicio y fin donde aparece patron en cadena usando solo comparaciones entre caracteres unitarios (ej. patron[i] == cadena[j] ).  NO uses string.find() ni otras funciones predefinidas para búsqueda en strings.
+
+
+
+cadena :  "this is a small example of examples"
+patron : "small"
+
+
+En este ejemplo, la salida correcta que tu código debe averiguar es:
+
+10 (índice inicial) y  15 (índice final, no inclusivo) 
+
+
+ Imprime como salida: los indices de inicio y fin, y el extracto de la cadena entre ambos
+
+
+3. En un pdf coloca capturas de pantalla legibles del código y sus salidas. Responde para cada uno ¿que complejidad tiene cada algoritmo y porque? 
+
+ 
+
+ 
+Evaluación
+
+
+Tus programas deben:
+
+ser de autoría propia e individual
+ser una implementación correcta de los algoritmos indicados, SIN librerías ni funciones que implementen el algoritmo por ti
+compilar sin errores y ejecutarse correctamente
+leer las instancias de los problemas desde archivos, sin pedir al usuario que ingrese algo.
+usar rutas relativas, nunca absolutas. 
+dar salidas correctas y legiblemente formateadas, en pantalla y/o en archivo (cuando aplique). Para esta entrega, en pantalla. 
+
+Por al menos un problema resuelto antes del final de la clase: 
+-95pts - algoritmo de fuerza bruta que resuelve correctamente el problema, cumpliendo con lo solicitado. 
+-5pts - complejidades, comentarios y legibilidad de la salida
+
+Por completar ambos antes del final de la clase: 
++5 en stats
+
+
+Penalidad de entregas tardías: No se aceptan entregas tardías, excepto por motivos justificados (si es tu caso, inclúyelo en comentarios de la entrega).
+
