@@ -13,8 +13,7 @@ coor = [[-2.423, -8.469],
 
 
 def distancia(p1, p2):
-    return math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2)
-
+    return math.sqrt(math.pow((p1[0] - p2[0]), 2) + math.pow((p1[1] - p2[1]), 2))
 def puntos_mas_cercanos(coordenadas):
     punto1 = coordenadas[0]
     punto2 = coordenadas[1]
