@@ -1,5 +1,5 @@
 # 1. Determina cuales son los dos puntos mas cercanos dadas sus coordenadas x, y
-
+#complejidad O(n^2) debido a que se utilizan dos bucles anidados para calcular la distancia entre todos los pares de puntos
 
 import math
 
